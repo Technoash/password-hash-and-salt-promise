@@ -1,14 +1,11 @@
 {
-  "name": "password-hash-and-salt",
-  "version": "0.1.4",
-  "description": "Simple, safe and straight-forward password hashing / salting for node.js",
+  "name": "password-hash-and-salt-promise",
+  "version": "0.0.0",
+  "description": "Simple, safe and straight-forward password hashing / salting for node.js with promises",
   "main": "index.js",
-  "scripts": {
-    "test": "grunt test"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/florianheinemann/password-hash-and-salt.git"
+    "url": "https://github.com/technoash/password-hash-and-salt-promise.git"
   },
   "keywords": [
     "crypto",
@@ -17,20 +14,16 @@
     "hash",
     "salt",
     "password",
-    "pbkdf2"
+    "pbkdf2",
+    "promise"
   ],
   "dependencies": {
+    "bluebird": "~3.4.3",
   },
-  "devDependencies": {
-    "grunt": "~0.4.4",
-    "mocha": "~1.18.2",
-    "chai": "~1.9.1",
-    "grunt-mocha-test": "~0.10.2"
-  },
-  "author": "Florian Heinemann <florian.heinemann@gmail.com> (http://twitter.com/florian__h)",
+  "author": "Ashneil Roy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/florianheinemann/password-hash-and-salt/issues"
+    "url": "https://github.com/technoash/password-hash-and-salt-promise/issues"
   },
-  "homepage": "https://github.com/florianheinemann/password-hash-and-salt"
+  "homepage": "https://github.com/technoash/password-hash-and-salt-promise"
 }
