@@ -18,7 +18,7 @@
     "promise"
   ],
   "dependencies": {
-    "bluebird": "~3.4.3",
+    "bluebird": "~3.4.3"
   },
   "author": "Ashneil Roy",
   "license": "MIT",
